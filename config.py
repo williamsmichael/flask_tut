@@ -12,8 +12,8 @@ class DevelopmentConfig(Config):
     Development configurations
     """
 
-	# Enable Flask's debugging features. Should be False in production
-	DEBUG = True
+    # Enable Flask's debugging features. Should be False in production
+    DEBUG = True
     SQLALCHEMY_ECHO = True
 
 class ProductionConfig(Config):
