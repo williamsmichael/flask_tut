@@ -1,1 +1,6 @@
+# files
 *.pyc
+
+# directories
+instance/
+
